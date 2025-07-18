@@ -1,2 +1,14 @@
-# Campus-Navigator
-An C++ project that build using simple Dijikstra algorithm to find shortest path to various classroom and points so that any new person coming in capus can easily go to desired classrom without being getting confused. It also shows direction when to turn and which turn to take and it was done using cross product.
+# Campus Navigator
+
+This C++ project implements a multi-floor campus navigation system using Dijkstra's algorithm. It supports:
+- 3D node coordinates `(x, y, z)`
+- Horizontal "walk" edges and vertical "stairs" edges
+- Dynamic turn-by-turn instructions (left/right/straight, upstairs/downstairs)
+
+## Build & Run
+
+```bash
+mkdir build && cd build
+cmake ..
+make
+./navigator
